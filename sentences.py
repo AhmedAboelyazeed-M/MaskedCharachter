@@ -40,10 +40,7 @@ def generate_sentences(num_sentences, pattern='AABBCCDDDDEEEEFF'):
 
         # for i in range(3):
         #     pattern += all_chars[(start_index + i) % len(all_chars)] * 2
-        
-        # for i in range(3):
-        #     pattern += all_chars[(start_index + i) % len(all_chars)] * 2
-        
+
         
         # Generate the rotated pattern
         start_index = np.random.randint(len(pattern))
